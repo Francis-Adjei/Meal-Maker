@@ -54,9 +54,9 @@ const menu = {
   menu.addDishToCourse('appetizers', ' wings', 9.00);
   menu.addDishToCourse('appetizers', 'Chips and Salad', 7.50);
   
-  menu.addDishToCourse('mains','Steak', 20.13);
-  menu.addDishToCourse('mains','Quesadilla', 12.90);
-  menu.addDishToCourse('mains','Cheeseburger', 10.90);
+  menu.addDishToCourse('mains','banana', 20.13);
+  menu.addDishToCourse('mains','rice', 12.90);
+  menu.addDishToCourse('mains','apple', 10.90);
   
   menu.addDishToCourse('desserts','cake',6.20);
   menu.addDishToCourse('desserts','coffe',6.50);
