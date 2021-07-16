@@ -50,16 +50,16 @@ const menu = {
       return `Your meal is ${appetizer.name}, ${main.name}, ${dessert.name} the price is ${totalPrice}.`;
     }
   };
-  menu.addDishToCourse('appetizers', 'Mozzarella sticks', 5.65);
-  menu.addDishToCourse('appetizers', 'Chips and Salsa', 4.00);
-  menu.addDishToCourse('appetizers', 'wings', 8.50);
+  menu.addDishToCourse('appetizers', 'Chips', 10.65);
+  menu.addDishToCourse('appetizers', ' wings', 9.00);
+  menu.addDishToCourse('appetizers', 'Chips and Salad', 7.50);
   
   menu.addDishToCourse('mains','Steak', 20.13);
   menu.addDishToCourse('mains','Quesadilla', 12.90);
   menu.addDishToCourse('mains','Cheeseburger', 10.90);
   
   menu.addDishToCourse('desserts','cake',6.20);
-  menu.addDishToCourse('desserts','brownies',6.50);
+  menu.addDishToCourse('desserts','coffe',6.50);
   menu.addDishToCourse('desserts','ice cream',6.90);
   
   const meal = menu.generateRandomMeal();
